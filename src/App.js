@@ -23,6 +23,7 @@ function App() {
 
   useEffect(() => {
     // will only run once when the app component loads...
+    // a listener for auth change
     auth.onAuthStateChanged((authUser) => {
       // console.log('THE USER IS >>>', authUser);
 

@@ -8,6 +8,7 @@ import { StateProvider } from './stateprovider';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* initial state is the initial data layer for state, recuder is how we play with the data layer */}
     <StateProvider initialState={initialState} reducer={reducer}>      
       <App />
     </StateProvider>    
